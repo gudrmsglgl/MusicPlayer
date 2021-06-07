@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="ExoMusicApp.app" target="1.8" />
+      <module name="ExoMusicApp.data" target="1.8" />
       <module name="ExoMusicApp.presentation" target="1.8" />
     </bytecodeTargetLevel>
   </component>

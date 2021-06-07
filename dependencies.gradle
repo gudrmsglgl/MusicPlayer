@@ -34,10 +34,18 @@ ext {
     ]
 
     presentationDependencies = [
-            coroutine_core:     "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0",
+            coroutine_core:     "org.jetbrains.kotlinx:kotlinx-coroutines-core:${coroutineCoreVersion}",
             coroutine:          "org.jetbrains.kotlinx:kotlinx-coroutines-android:${coroutineAndroidVersion}",
             lifecycle_runtime:  "androidx.lifecycle:lifecycle-runtime:${lifecycleVersion}",
             viewmodel_ktx:      "androidx.lifecycle:lifecycle-viewmodel-ktx:${lifecycleVersion}",
+            dagger:             "com.google.dagger:dagger:${daggerVersion}",
+            daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
+            javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            javaxInject:        "javax.inject:javax.inject:${javaxInjectVersion}",
+    ]
+
+    dataDependencies = [
+            coroutine_core:     "org.jetbrains.kotlinx:kotlinx-coroutines-core:${coroutineCoreVersion}",
             dagger:             "com.google.dagger:dagger:${daggerVersion}",
             daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
             javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
