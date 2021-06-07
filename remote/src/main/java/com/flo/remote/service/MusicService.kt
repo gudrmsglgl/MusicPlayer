@@ -6,5 +6,5 @@ import retrofit2.http.GET
 
 interface MusicService {
     @GET("song.json")
-    fun getMusicInfo(): Flow<MusicInfoModel>
+    fun getMusicInfo(): MusicInfoModel
 }
